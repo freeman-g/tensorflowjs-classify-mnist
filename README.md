@@ -9,3 +9,18 @@ I have added several key enhancments:
 - Configured a hot-loading Webpack dev server
 - Added buttons to Start Training, Save the Model to Local Storage and Load the Model to Local Storage
 - Added a canvas that allows you to draw a handwritten digit and then run it through the trained Neural Network Model
+
+A demonstration can be found here: [https://freeman-g.github.io/tensorflowjs-mnist-classifier/dist/](https://freeman-g.github.io/tensorflowjs-mnist-classifier/dist/)
+
+---
+
+To install and clone the repo and run:
+```
+npm install
+node dev-server
+```
+
+To create a production build in the `dist` directory, run:
+```
+npx webpack
+```
