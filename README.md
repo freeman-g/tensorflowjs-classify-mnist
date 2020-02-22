@@ -14,7 +14,7 @@ A demonstration can be found here: [https://freeman-g.github.io/tensorflowjs-mni
 
 ---
 
-To install and clone the repo and run:
+To install, clone the repo and run:
 ```
 npm install
 node dev-server
