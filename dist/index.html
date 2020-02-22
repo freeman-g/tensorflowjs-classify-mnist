@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Tensorflow JS MNIST Classifier</title>
+</head>
+
+<body>
+    <script src="main.js"></script>
+    <canvas id="canvas" width="112" height="112" style="border: 1px solid"></canvas><span id="pred"
+        style="position: fixed; left: 140px;"></span>
+    <div style="position: fixed; top: 150px; left: 10px;"><button onClick="startTraining()">Start Training</button>
+    </div>
+    <div style="position: fixed; top: 180px; left: 10px;"><button onClick="classifyDrawing()">Classify Drawing</button>
+    </div>
+    <div style="position: fixed; top: 210px; left: 10px;"><button onClick="clearCanvas()">Clear Drawing</button>
+    </div>
+    <div style="position: fixed; top: 240px; left: 10px;"><button onClick="saveModel()">Save Model to Local
+            Storage</button>
+        <div style="position: fixed; top: 270px; left: 10px;"><button onClick="loadSavedModel()">Load Model From
+                Local
+                Storage</button>
+        </div>
+</body>
+
+</html>
